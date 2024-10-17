@@ -1,18 +1,15 @@
-import java.util.Arrays;
-import java.util.Scanner;
-
+//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
+// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        int[] arr = {1, 2, 3, 4, 5, 6};
-                char[] chars = {'A', 'S', 'W', 'n', 'b'};
+        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
+        // to see how IntelliJ IDEA suggests fixing it.
+        System.out.printf("Hello and welcome!");
 
-        System.out.println(Methods.square(12));
-        System.out.println(Methods.square(70));
-        System.out.println(Methods.square(3));
-        System.out.println(Methods.printFullName("Macksim", " Zhirov"));
-        String[] text = new String[]{"Word", "Word Java", "Word Java World", "W"};
-        System.out.println(Arrays.toString(Methods.cornerValuesArray(text)));
-        System.out.println(Arrays.toString(Methods.cornerValuesArray(arr)));
-        System.out.println(Methods.cornerValuesArray(chars));
+        for (int i = 1; i <= 5; i++) {
+            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
+            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
+            System.out.println("i = " + i);
+        }
     }
 }
